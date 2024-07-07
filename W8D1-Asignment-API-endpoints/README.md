@@ -50,6 +50,25 @@ This project provides a simple RESTful API to retrieve current weather informati
      ```bash
      python3 app.py
      ```
+     
+## Testing
+
+You can use Postman or cURL to test the API endpoint.
+
+**1. Postman Collection**
+
+* Create a new collection named "Weather API".
+* Add a new GET request to the collection with the URL `http://127.0.0.1:5000/weather`.
+* Set the `city` query parameter to the city you want to test (e.g., `city=London`).
+* Save and send the request to see the response.
+
+**2. cURL Commands**
+
+Use the following command in your terminal:
+
+```bash
+curl "http://127.0.0.1:5000/weather?city=London"
+```
 
 ## Usage
 
